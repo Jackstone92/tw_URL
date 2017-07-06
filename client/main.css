@@ -1,0 +1,110 @@
+* {
+  font-family: 'Raleway', sans-serif;
+}
+
+
+nav {
+  font-size: 30px;
+  padding: 10px;
+  color: rgba(255,255,255,0.6);
+}
+
+nav .container-fluid {
+  margin-left: 18%;
+}
+
+nav ul li {
+  margin-left: 14px;
+  margin-right: 14px;
+  padding-top: 12px;
+  font-size: 18px;
+}
+
+.navButtonWrapper {
+  float: right;
+  margin-right: 21%;
+}
+
+.navButtonWrapper button {
+  margin-right: 20px;
+}
+
+.navbar-header {
+
+}
+
+.navbar-brand {
+  font-size: 40px;
+  margin-right: 80px;
+}
+
+
+
+
+
+.mainHeader {
+  background-image: url('/resources/startUp.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  filter: contrast(-1);
+}
+
+.headerTitle {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.headerSubtitle {
+  margin-bottom: 80px;
+}
+
+.linkCreateForm {
+
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 50px;
+  margin-bottom: 50px;
+}
+
+.linkCreateForm input {
+  height: 60px;
+  margin-bottom: 20px;
+  font-size: 22px;
+  border-radius: px;
+}
+.linkCreateForm button {
+  height: 60px;
+  font-size: 22px;
+  margin-bottom: 40px;
+}
+
+
+
+
+
+
+.linkListTable {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 5px;
+  padding: 50px 50px;
+  font-size: 18px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.52), 0 1px 2px rgba(0,0,0,0.54);
+}
+
+
+footer {
+  background-color: rgb(0,0,0);
+  color: rgba(255,255,255,0.6);
+}
+
+footer p {
+  padding: 20px 20px;
+  margin-bottom: 0;
+}
