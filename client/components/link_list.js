@@ -11,7 +11,7 @@ class LinkList extends Component {
   renderRows() {
     return this.props.links.map(link => {
 
-      const shortLink = `http://localhost:3000/${link.token}`;
+      const shortLink = `http://tw-url.herokuapp.com/${link.token}`;
 
       return(
         <tr key={link.token}>
